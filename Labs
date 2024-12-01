@@ -1,0 +1,7 @@
+# Linus RHCSA Labs 
+
+Lab 1: User and Group Management.
+by using ubuntu, 
+Create a new group named ivolve and a new user assigned to this group with a secure password. configure the user's permissions to allow installing Nginx with elevated privileges using the sudo tool 
+( run sudo command for installing Nginx without password).
+=====================================================================================================================
