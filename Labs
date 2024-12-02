@@ -6,6 +6,22 @@ Create a new group named ivolve and a new user assigned to this group with a sec
 ( run sudo command for installing Nginx without password).
 ======================================================================
 
-Lab 2: Shell Scripting Bascs 1:
+Lab 2: Shell Scripting Basics 1:
 Schedule a script to run daily at 5:00 PM that automate checking disk space usage for the root file system and sends an email alert if usage exceeds a specified threshold (10%).
 ========================================================================
+
+Lab 3: Shell Scripting basics 2:
+Create a shell script to ping every server in the 172.16.17.x subnet (where x is a
+number between 0 and 255). If the ping succeeds, display the message “Server 172.16.17.x is up
+and running” If the ping fails, display the message “Server 172.16.17.x is unreachable”.
+=========================================================================
+
+Lab 5: Disk Management and Logical Volume
+Attach a 15GB disk to your VM, partition it into 5GB, 5GB, 3GB, and 2GB sections. Use the first
+5GB partition as a file system, configure the 2GB partition as swap, initialize the second 5GB as a Volume
+Group (VG) with a Logical Volume (LV), then extend the LV by adding the 3GB partition.
+==========================================================================
+
+Lab 6:
+Generate public and private keys and enable SSH from your machine to another VM using
+the key. Configure SSH to just run ‘ssh ivolve’ without specify username, IP and key in the command.
