@@ -1,6 +1,7 @@
 # Labs RHCSA
 # Lab 1: User and Group Management
-====================================
+****
+
 step 1: 
 create group named ivolve by using command 
 sudo groupadd ivolve
