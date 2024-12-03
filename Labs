@@ -27,3 +27,7 @@ Generate public and private keys and enable SSH from your machine to another VM 
 the key. Configure SSH to just run ‘ssh ivolve’ without specify username, IP and key in the command.
 ===========================================================================
 ===========================================================================
+                # Ansible
+Lab 7: Ansible installation
+ Install and configure Ansible Automation Platform on control nodes, create
+inventories of a managed host, and then perform ad-hoc commands to check functionality
