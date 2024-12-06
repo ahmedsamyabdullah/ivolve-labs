@@ -1,0 +1,14 @@
+RHEL9 Servers
+[rhel_servers]
+192.168.35.34   # servera 
+192.168.45.160  # serverb 
+============================
+ssh connect:- 
+ssh servera@192.168.35.34
+ssh serverb@192.168.45.160
+===========================
+To avoid python interpreter error msg
+add this var into each playbook after become: :
+vars:
+    ansible_python_interpreter: /usr/bin/python3.9
+================================
